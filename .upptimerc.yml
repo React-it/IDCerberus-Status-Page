@@ -16,15 +16,18 @@ sites:
 
 status-website:
   baseUrl: /IDCerberus-Status-Page
+  theme: night
   name: IDCerberus Status
   introTitle: "IDCerberus Status Page"
   introMessage: "Página pública de status dos serviços IDCerberus."
+  logoUrl: https://idcerberus.com/logo.png
+  favicon: https://idcerberus.com/favicon.ico
   navbar:
     - title: Status
       href: /IDCerberus-Status-Page/
     - title: IDCerberus
       href: https://idcerberus.com
-
+      
 assignees:
   - jorginholys
 
