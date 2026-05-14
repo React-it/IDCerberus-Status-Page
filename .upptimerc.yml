@@ -16,19 +16,39 @@ sites:
 
 status-website:
   baseUrl: /IDCerberus-Status-Page
-  theme: night
+  theme: dark
+  themeUrl: https://React-it.github.io/IDCerberus-Status-Page/idcerberus-theme.css
   name: IDCerberus Status
-  introTitle: "IDCerberus Status Page"
-  introMessage: "Página pública de status dos serviços IDCerberus."
-  logoUrl: https://idcerberus.com/logo.png
+  introTitle: "Status operacional do IDCerberus"
+  introMessage: "Acompanhe a disponibilidade dos servicos publicos do **IDCerberus** em tempo real. Incidentes, degradacoes e recuperacoes aparecem aqui automaticamente."
+  logoUrl: https://React-it.github.io/IDCerberus-Status-Page/logo.webp
   favicon: https://idcerberus.com/favicon.ico
+  metaTags:
+    - name: "theme-color"
+      content: "#081c24"
+    - name: "robots"
+      content: "index, follow"
+  customHeadHtml: "<meta name='apple-mobile-web-app-title' content='IDCerberus Status'>"
   navbar:
     - title: Status
       href: /IDCerberus-Status-Page/
     - title: IDCerberus
       href: https://idcerberus.com
-      
+    - title: Backoffice
+      href: https://backoffice.idcerberus.com
+    - title: API
+      href: https://api.idcerberus.com/health
+
 assignees:
   - jorginholys
 
 user-agent: React-it
+
+i18n:
+  activeIncidents: Incidentes ativos
+  allSystemsOperational: Todos os servicos operacionais
+  incidentReport: Relatorio de incidente
+  overallUptime: Disponibilidade geral
+  responseTime: Tempo de resposta
+  uptime: Disponibilidade
+  footer: Pagina publica de status do IDCerberus
