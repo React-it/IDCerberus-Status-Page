@@ -31,6 +31,29 @@ body {
   letter-spacing: 0.01em;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.25rem;
+}
+
+header h1,
+header p {
+  display: none;
+}
+
+header img,
+header .logo {
+  display: block;
+  width: min(220px, 58vw);
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 0.75rem;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.28));
+}
+
 nav {
   backdrop-filter: blur(14px);
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.22);
@@ -45,6 +68,39 @@ section {
 article,
 section {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(98, 182, 203, 0.14);
+  background: linear-gradient(180deg, rgba(10, 28, 37, 0.94) 0%, rgba(8, 22, 30, 0.9) 100%);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+article:hover,
+section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.26);
+  border-color: rgba(88, 211, 198, 0.26);
+}
+
+article {
+  position: relative;
+  overflow: hidden;
+}
+
+article::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, #58d3c6 0%, #2d8db9 100%);
+  opacity: 0.9;
+}
+
+article > div,
+section > div {
+  position: relative;
+  z-index: 1;
 }
 
 h1,
@@ -66,6 +122,73 @@ img.logo,
 nav img,
 header img {
   border-radius: 14px;
+}
+
+article h2,
+section h2,
+article h3,
+section h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: #a8c9d4;
+}
+
+article small,
+section small {
+  color: #8fb0bc;
+}
+
+article strong,
+section strong {
+  font-size: 1.7rem;
+  line-height: 1.1;
+}
+
+[class*="tag"],
+[class*="Tag"] {
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  text-transform: uppercase;
+}
+
+svg,
+canvas,
+img[src*="response-time"] {
+  border-radius: 14px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 0.85rem;
+}
+
+tbody tr {
+  background: rgba(9, 24, 32, 0.92);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.16);
+}
+
+tbody td,
+tbody th {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid rgba(98, 182, 203, 0.12);
+  border-bottom: 1px solid rgba(98, 182, 203, 0.12);
+}
+
+tbody td:first-child,
+tbody th:first-child {
+  border-left: 1px solid rgba(98, 182, 203, 0.12);
+  border-radius: 16px 0 0 16px;
+}
+
+tbody td:last-child,
+tbody th:last-child {
+  border-right: 1px solid rgba(98, 182, 203, 0.12);
+  border-radius: 0 16px 16px 0;
 }
 
 footer {
