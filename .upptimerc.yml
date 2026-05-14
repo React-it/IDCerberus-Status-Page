@@ -2,38 +2,44 @@ owner: React-it
 repo: IDCerberus-Status-Page
 
 sites:
-  - name: Landing Page
+  - name: Site Institucional
     url: https://idcerberus.com
+    icon: https://icons.duckduckgo.com/ip3/idcerberus.com.ico
 
-  - name: Backoffice Producao
+  - name: Backoffice Produção
     url: https://backoffice.idcerberus.com/
+    icon: https://icons.duckduckgo.com/ip3/backoffice.idcerberus.com.ico
 
-  - name: Backoffice Homologacao
+  - name: Backoffice Homologação
     url: https://backoffice-hml.idcerberus.com/
+    icon: https://icons.duckduckgo.com/ip3/backoffice-hml.idcerberus.com.ico
 
 status-website:
   baseUrl: /IDCerberus-Status-Page
   theme: dark
   themeUrl: https://React-it.github.io/IDCerberus-Status-Page/idcerberus-theme.css
-  name: IDCerberus Status
+  name: ""
   introTitle: ""
   introMessage: ""
   logoUrl: https://React-it.github.io/IDCerberus-Status-Page/logo.webp
   favicon: https://idcerberus.com/favicon.ico
+  links:
+    - rel: stylesheet
+      href: https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap
   metaTags:
     - name: "theme-color"
       content: "#081c24"
     - name: "robots"
       content: "index, follow"
-  customHeadHtml: "<meta name='apple-mobile-web-app-title' content='IDCerberus Status'>"
+  customHeadHtml: "<meta name='apple-mobile-web-app-title' content='Status IDCerberus'>"
   navbar:
     - title: Status
       href: /IDCerberus-Status-Page/
     - title: IDCerberus
       href: https://idcerberus.com
-    - title: Producao
+    - title: Produção
       href: https://backoffice.idcerberus.com/
-    - title: Homologacao
+    - title: Homologação
       href: https://backoffice-hml.idcerberus.com/
 
 assignees:
@@ -43,9 +49,65 @@ user-agent: React-it
 
 i18n:
   activeIncidents: Incidentes ativos
-  allSystemsOperational: Todos os servicos operacionais
-  incidentReport: Relatorio de incidente
-  overallUptime: Disponibilidade geral
+  allSystemsOperational: Todos os serviços estão operacionais
+  incidentReport: "Incidente #$NUMBER →"
+  activeIncidentSummary: Aberto em $DATE com $POSTS atualizações
+  incidentTitle: Detalhes do incidente $NUMBER
+  incidentDetails: Detalhes do incidente
+  incidentFixed: Resolvido
+  incidentOngoing: Em andamento
+  incidentOpenedAt: Aberto em
+  incidentClosedAt: Encerrado em
+  incidentViewOnGitHub: Ver e acompanhar no GitHub
+  incidentCommentSummary: Publicado em $DATE por $AUTHOR
+  incidentBack: "← Voltar para todos os incidentes"
+  pastIncidents: Incidentes anteriores
+  pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS atualizações
+  liveStatus: Status em tempo real
+  overallUptime: "Disponibilidade geral: $UPTIME"
+  overallUptimeTitle: Disponibilidade geral
+  averageResponseTime: "Tempo médio de resposta: $TIME ms"
+  averageResponseTimeTitle: Tempo médio de resposta
+  sevelDayResponseTime: Tempo de resposta em 7 dias
+  responseTimeMs: Tempo de resposta (ms)
   responseTime: Tempo de resposta
   uptime: Disponibilidade
-  footer: Pagina publica de status do IDCerberus
+  up: Operacional
+  down: Indisponível
+  degraded: Degradado
+  ms: ms
+  loading: Carregando
+  navGitHub: GitHub
+  footer: Página pública de status do IDCerberus
+  rateLimitExceededTitle: Limite de requisições excedido
+  rateLimitExceededIntro: Você excedeu o número de requisições permitidas por hora. Aguarde um pouco antes de acessar novamente ou adicione um token pessoal do GitHub para continuar usando a página.
+  rateLimitExceededWhatDoesErrorMean: O que este erro significa?
+  rateLimitExceededErrorMeaning: Esta página usa a API do GitHub para buscar dados em tempo real sobre o status dos nossos serviços. Por padrão, o GitHub permite 60 requisições por hora para cada IP, e esse limite foi consumido.
+  rateLimitExceededErrorHowCanFix: Como posso resolver?
+  rateLimitExceededErrorFix: Você pode aguardar mais uma hora para o limite do seu IP ser restaurado. Como alternativa, pode informar um token pessoal do GitHub para ter um limite adicional de requisições.
+  rateLimitExceededGeneratePAT: Saiba como gerar um token de acesso pessoal
+  rateLimitExceededHasSet: Você já configurou um token de acesso pessoal.
+  rateLimitExceededRemoveToken: Remover token
+  rateLimitExceededGitHubPAT: Token de acesso pessoal do GitHub
+  rateLimitExceededCopyPastePAT: Cole seu token
+  rateLimitExceededSaveToken: Salvar token
+  errorTitle: Ocorreu um erro
+  errorIntro: Ocorreu um erro ao buscar os detalhes mais recentes de status.
+  errorText: Tente novamente em alguns instantes.
+  errorHome: Ir para a página inicial
+  pastScheduledMaintenance: Manutenções agendadas anteriores
+  scheduledMaintenance: Manutenção agendada
+  scheduledMaintenanceSummaryStarted: Iniciada em $DATE com duração de $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Início em $DATE com duração de $DURATION minutos
+  startedAt: Iniciada em
+  startsAt: Início em
+  duration: Duração
+  durationMin: $DURATION minutos
+  incidentCompleted: Concluído
+  incidentScheduled: Agendado
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1a
+  durationAll: todo o período
+  locale: pt-BR
