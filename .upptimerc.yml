@@ -2,25 +2,22 @@ owner: React-it
 repo: IDCerberus-Status-Page
 
 sites:
-  - name: IDCerberus Website
+  - name: Landing Page
     url: https://idcerberus.com
 
-  - name: IDCerberus Backoffice
-    url: https://backoffice.idcerberus.com
+  - name: Backoffice Producao
+    url: https://backoffice.idcerberus.com/
 
-  - name: IDCerberus API
-    url: https://api.idcerberus.com/health
-
-  - name: Onboarding
-    url: https://onboarding.idcerberus.com/health
+  - name: Backoffice Homologacao
+    url: https://backoffice-hml.idcerberus.com/
 
 status-website:
   baseUrl: /IDCerberus-Status-Page
   theme: dark
   themeUrl: https://React-it.github.io/IDCerberus-Status-Page/idcerberus-theme.css
   name: IDCerberus Status
-  introTitle: "Status operacional do IDCerberus"
-  introMessage: "Acompanhe a disponibilidade dos servicos publicos do **IDCerberus** em tempo real. Incidentes, degradacoes e recuperacoes aparecem aqui automaticamente."
+  introTitle: ""
+  introMessage: ""
   logoUrl: https://React-it.github.io/IDCerberus-Status-Page/logo.webp
   favicon: https://idcerberus.com/favicon.ico
   metaTags:
@@ -34,10 +31,10 @@ status-website:
       href: /IDCerberus-Status-Page/
     - title: IDCerberus
       href: https://idcerberus.com
-    - title: Backoffice
-      href: https://backoffice.idcerberus.com
-    - title: API
-      href: https://api.idcerberus.com/health
+    - title: Producao
+      href: https://backoffice.idcerberus.com/
+    - title: Homologacao
+      href: https://backoffice-hml.idcerberus.com/
 
 assignees:
   - jorginholys
