@@ -1,5 +1,5 @@
-owner: reactitsolutions
-repo: status-page
+owner: React-it
+repo: IDCerberus-Status-Page
 
 sites:
   - name: IDCerberus Website
@@ -15,17 +15,17 @@ sites:
     url: https://onboarding.idcerberus.com/health
 
 status-website:
-  baseUrl: /status-page
+  baseUrl: /IDCerberus-Status-Page
   name: IDCerberus Status
   introTitle: "IDCerberus Status Page"
   introMessage: "Página pública de status dos serviços IDCerberus."
   navbar:
     - title: Status
-      href: /
+      href: /IDCerberus-Status-Page/
     - title: IDCerberus
       href: https://idcerberus.com
 
 assignees:
-  - reactitsolutions
+  - jorginholys
 
-user-agent: reactitsolutions
+user-agent: React-it
