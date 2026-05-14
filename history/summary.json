@@ -1,6 +1,6 @@
 [
   {
-    "name": "Landing Page",
+    "name": "Site Institucional",
     "url": "https://idcerberus.com",
     "icon": "https://icons.duckduckgo.com/ip3/idcerberus.com.ico",
     "slug": "landing-page",
@@ -18,7 +18,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Backoffice Producao",
+    "name": "Backoffice Produção",
     "url": "https://backoffice.idcerberus.com/",
     "icon": "https://icons.duckduckgo.com/ip3/backoffice.idcerberus.com.ico",
     "slug": "backoffice-producao",
@@ -36,7 +36,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Backoffice Homologacao",
+    "name": "Backoffice Homologação",
     "url": "https://backoffice-hml.idcerberus.com/",
     "icon": "https://icons.duckduckgo.com/ip3/backoffice-hml.idcerberus.com.ico",
     "slug": "backoffice-homologacao",
