@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 772,
-    "timeDay": 755,
-    "timeWeek": 801,
-    "timeMonth": 775,
-    "timeYear": 772,
+    "time": 768,
+    "timeDay": 610,
+    "timeWeek": 774,
+    "timeMonth": 769,
+    "timeYear": 768,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 278,
-    "timeDay": 326,
-    "timeWeek": 292,
-    "timeMonth": 282,
-    "timeYear": 278,
+    "time": 272,
+    "timeDay": 80,
+    "timeWeek": 258,
+    "timeMonth": 273,
+    "timeYear": 272,
     "dailyMinutesDown": {}
   },
   {
@@ -40,17 +40,17 @@
     "url": "https://backoffice-hml.idcerberus.com/",
     "icon": "https://icons.duckduckgo.com/ip3/backoffice-hml.idcerberus.com.ico",
     "slug": "backoffice-homologacao",
-    "status": "up",
-    "uptime": "34.65%",
-    "uptimeDay": "47.00%",
+    "status": "down",
+    "uptime": "35.65%",
+    "uptimeDay": "50.95%",
     "uptimeWeek": "37.83%",
-    "uptimeMonth": "32.76%",
-    "uptimeYear": "34.65%",
-    "time": 2344,
-    "timeDay": 1492,
-    "timeWeek": 2281,
-    "timeMonth": 2396,
-    "timeYear": 2344,
+    "uptimeMonth": "34.44%",
+    "uptimeYear": "35.65%",
+    "time": 2349,
+    "timeDay": 1844,
+    "timeWeek": 2427,
+    "timeMonth": 2369,
+    "timeYear": 2349,
     "dailyMinutesDown": {
       "2026-05-15": 682,
       "2026-05-18": 718,
@@ -84,7 +84,8 @@
       "2026-06-15": 773,
       "2026-06-14": 1440,
       "2026-06-13": 1371,
-      "2026-06-16": 708
+      "2026-06-16": 708,
+      "2026-06-17": 0
     }
   }
 ]
