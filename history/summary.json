@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 772,
-    "timeDay": 0,
-    "timeWeek": 904,
-    "timeMonth": 781,
-    "timeYear": 772,
+    "time": 769,
+    "timeDay": 604,
+    "timeWeek": 861,
+    "timeMonth": 775,
+    "timeYear": 769,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 256,
-    "timeDay": 0,
-    "timeWeek": 247,
-    "timeMonth": 240,
-    "timeYear": 256,
+    "time": 253,
+    "timeDay": 111,
+    "timeWeek": 228,
+    "timeMonth": 236,
+    "timeYear": 253,
     "dailyMinutesDown": {}
   },
   {
@@ -41,14 +41,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/backoffice-hml.idcerberus.com.ico",
     "slug": "backoffice-homologacao",
     "status": "down",
-    "uptime": "35.40%",
+    "uptime": "35.35%",
     "uptimeDay": "39.42%",
-    "uptimeWeek": "37.51%",
+    "uptimeWeek": "37.45%",
     "uptimeMonth": "36.22%",
-    "uptimeYear": "35.40%",
+    "uptimeYear": "35.35%",
     "time": 2360,
     "timeDay": 2737,
-    "timeWeek": 2572,
+    "timeWeek": 2417,
     "timeMonth": 2371,
     "timeYear": 2360,
     "dailyMinutesDown": {
@@ -104,7 +104,8 @@
       "2026-07-03": 564,
       "2026-07-06": 875,
       "2026-07-05": 1440,
-      "2026-07-04": 1357
+      "2026-07-04": 1357,
+      "2026-07-07": 114
     }
   }
 ]
