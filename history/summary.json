@@ -41,13 +41,13 @@
     "icon": "https://icons.duckduckgo.com/ip3/backoffice-hml.idcerberus.com.ico",
     "slug": "backoffice-homologacao",
     "status": "down",
-    "uptime": "36.17%",
-    "uptimeDay": "56.33%",
+    "uptime": "36.16%",
+    "uptimeDay": "55.75%",
     "uptimeWeek": "37.87%",
     "uptimeMonth": "38.26%",
-    "uptimeYear": "36.17%",
+    "uptimeYear": "36.16%",
     "time": 2362,
-    "timeDay": 2701,
+    "timeDay": 1814,
     "timeWeek": 2245,
     "timeMonth": 2350,
     "timeYear": 2362,
@@ -120,7 +120,7 @@
       "2026-07-19": 1440,
       "2026-07-18": 1383,
       "2026-07-21": 629,
-      "2026-07-22": 0
+      "2026-07-22": 22
     }
   }
 ]
